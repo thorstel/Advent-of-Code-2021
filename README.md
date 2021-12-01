@@ -9,4 +9,7 @@ $ g++ -Wall -Wextra -pedantic -O2 -std=c++17 dayXX.cc
 
 For my Python solutions I use Python 3.9.
 
-All my solutions are self-contained programs. I copy + paste my inputs directly into the source files. Different inputs can be used by passing a file path via command line argument.
+All my solutions are self-contained programs. The input is provided via `stdin`:
+```
+$ ./a.out <input.txt
+```
