@@ -1,3 +1,5 @@
+// https://adventofcode.com/2021/day/3
+
 #include <bits/stdc++.h>
 
 #define all(x) begin(x), end(x)
