@@ -1,11 +1,11 @@
 # https://adventofcode.com/2021/day/2
 
-import fileinput
+import sys
 
 pos1, depth1 = 0, 0
 pos2, depth2, aim = 0, 0, 0
 
-for line in fileinput.input():
+for line in sys.stdin:
     xs = line.strip().split()
     op, x = xs[0], int(xs[1])
     if op == 'forward':

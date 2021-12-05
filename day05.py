@@ -1,12 +1,12 @@
 # https://adventofcode.com/2021/day/5
 
 from collections import *
-import fileinput
+import sys
 
 field = defaultdict(int)
 diagonals = []
 
-for line in fileinput.input():
+for line in sys.stdin:
     xs = line.strip().split(' -> ')
     xy1 = xs[0].split(',')
     x1, y1 = int(xy1[0]), int(xy1[1])
